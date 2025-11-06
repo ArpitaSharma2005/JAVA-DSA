@@ -1,0 +1,11 @@
+package com.example.classes;
+
+public class Car implements com.example.intf.Car {
+
+	@Override
+	public String getCar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

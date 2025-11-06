@@ -1,0 +1,19 @@
+package oops;
+
+public class Inheritance {
+	class A{
+		int m,n;
+		void displaly1() {
+			System.out.println("m and n are:"+m+" "+n);
+		}
+	}
+	class B extends A{
+		int c;
+		void display2() {
+			System.out.println("c: "+c);
+		}
+		void sum() {
+			System.out.println("m+n+n = " + (m+n+c));
+		}
+	}
+}

@@ -1,0 +1,107 @@
+
+public class Test {
+	
+	//1.
+	/*
+	public static void main(String[] args) {
+		String s = "Welcome";
+		s.concat("ToJava");
+		
+		System.out.println(s);
+	}*/
+	
+	
+	//2.
+	/*
+	public static void main(String[] args) {
+		String s = "Welcome";
+		s = s.concat("To Java");
+		System.out.println(s);
+	}*/
+	//WelcomeTo Java
+	
+	
+	//3.
+	/*
+	public static void main(String[] args) {
+		String s1 = "Welcome";
+		String s2 = "Welcome";
+		String s3 = new String ("Welcome");
+		String s4 = "Hello";
+		System.out.println(s1.equals(s2));
+		System.out.println(s2.equals(s3));
+	}*/
+	//true true
+	
+	//4.
+	/*
+	public static void main(String[] args) {
+		String s1 = "Welcome";
+		String s2 = "WELCOME";
+		
+		System.out.println(s1.equals(s2));
+		System.out.println(s1.equalsIgnoreCase(s2));
+	}*/
+	//false true
+	
+	//5.
+	/*
+	public static void main(String[] args) {
+		String s1 = "Welcome";
+		String s2 = "Welcome";
+		String s3 = new String("Welcome");
+		System.out.println(s1==s2);
+		System.out.println(s1==s3);
+	}*/
+	//true false
+	
+	//6.
+	/*
+	public static void main(String[] args) {
+		String s1 = "Welcome";
+		String s2 = "Welcome";
+		String s3 = "Hello";
+		System.out.println(s1.compareTo(s2));
+		System.out.println(s1.compareTo(s3));
+		System.out.println(s3.compareTo(s1));
+	}*/
+	//0 15 -15
+	
+	//7.
+	/*
+	public static void main(String[] args) {
+		String str1 = "Java";
+		String str2 = "Programming";
+		
+		System.out.println(str1.concat(str2));
+	}
+	*/
+	//JavaProgramming
+	
+	//8.
+	/*
+	public static void main(String[] args) {
+		String str1 = "Java";
+		String str2 = "Programming";
+		System.out.println(str1 + str2);
+	}*/
+	//JavaProgramming
+	
+	//9.
+	/*
+	public static void main(String[] args) {
+		String str1 = "program";
+		System.out.println(str1.substring(0));
+		System.out.println(str1.substring(3));
+	}*/
+	//program
+	//gram
+	
+	public static void main(String[] args) {
+		String str1 = "program";
+		System.out.println(str1.substring(0,7));
+		System.out.println(str1.substring(0,5));
+		System.out.println(str1.substring(0,5));
+		
+	}
+}

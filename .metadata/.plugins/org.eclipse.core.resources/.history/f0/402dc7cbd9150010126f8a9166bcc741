@@ -1,0 +1,13 @@
+package com.example.classes;
+
+import com.example.intf.Car;
+
+public class Corola implements Car {
+
+	@Override
+	public String getCar() {
+		// TODO Auto-generated method stub
+		return "Toyota from Corola!;
+	}
+
+}

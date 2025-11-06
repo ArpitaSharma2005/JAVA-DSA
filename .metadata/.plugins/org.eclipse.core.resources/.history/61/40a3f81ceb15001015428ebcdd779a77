@@ -1,0 +1,15 @@
+package com.example.classes;
+
+public class Engine {
+	String type;
+	Engine()
+	{
+		type = "v5";
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+}

@@ -1,0 +1,11 @@
+package com.example.classes;
+
+import com.example.intf.Car;
+
+public class Swift implements Car {
+
+	@Override
+	public String getCar() {
+		return "Maruti Swift";
+	}
+}

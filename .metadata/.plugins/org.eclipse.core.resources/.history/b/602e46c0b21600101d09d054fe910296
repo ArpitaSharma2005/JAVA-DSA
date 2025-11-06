@@ -1,0 +1,9 @@
+
+public class Test {
+	public static void main(String[] args) {
+		String s = "Welcome";
+		s.concat("ToJava");
+		
+		System.out.println(s);
+	}
+}

@@ -1,0 +1,22 @@
+class CurrenThread
+{
+public static void main(String args[])
+{
+Thread th=Thread.currentThread();
+System.out.println("Current thred: "+th);
+th.setName("My Thread");
+System.out.println("after name change: "+th);
+try
+{
+for(int n=10;n>0;n--)
+{
+System.out.println(n);
+Thread.sleep(200);
+}
+}
+catch(InterruptedException e)
+{
+System.out.println("main thread interrupted");
+}
+}
+}

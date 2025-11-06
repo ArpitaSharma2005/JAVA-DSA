@@ -1,0 +1,22 @@
+package oops;
+
+public class Account {
+	double balance;
+	public void deposit(double amount) {
+		balance += amount;
+	}
+	public double withdraw(double amount) {
+		int minimum_balance = 5000;
+		if(balance >= (amount+minimum_balance)) {
+			balance -= amount;
+			return amount;
+		}
+		else {
+			System.out.println("Insufficient Balance");
+			return 0.0;
+		}
+	}
+	public double getbalance() {
+		return balance;
+	}
+}

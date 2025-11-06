@@ -1,0 +1,32 @@
+public class MyClass {
+	int a, b;
+
+	MyClass() {
+		a = 0;
+		b = 0;
+	}
+
+	MyClass(int i) {
+		a = i;
+		b = 0;
+	}
+
+	MyClass(int i, int j) {
+		a = i;
+		b = j;
+	}
+
+	void display() {
+		System.out.println("a = " + a + ", b = " + b);
+	}
+
+	public static void main(String[] args) {
+		MyClass obj1 = new MyClass();
+		MyClass obj2 = new MyClass(10);
+		MyClass obj3 = new MyClass(10, 20);
+
+		obj1.display();
+		obj2.display();
+		obj3.display();
+	}
+}
